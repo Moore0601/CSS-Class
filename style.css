@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #e5f698;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+footer div ul {
+  list-style: none;
+}
+
+footer div h3 {
+  margin-bottom: 5px;
+}
+
+footer div ul li:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
